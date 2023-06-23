@@ -1,7 +1,6 @@
 package usecases
 
-import "github.com/UjinIaly/db_project
-/internal/models"
+import "db_project/internal/models"
 
 type ThreadUseCase interface {
 	CreatePosts(slugOrID string, posts *models.Posts) (err error)

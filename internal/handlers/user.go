@@ -1,12 +1,9 @@
 package handlers
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
-	"github.com/UjinIaly/db_project
-/internal/usecases"
-	"github.com/UjinIaly/db_project
-/pkg/errors"
+	"db_project/internal/models"
+	"db_project/internal/usecases"
+	"db_project/pkg/errors"
 	"net/http"
 
 	"github.com/mailru/easyjson"

@@ -1,12 +1,9 @@
 package impl
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
-	"github.com/UjinIaly/db_project
-/internal/repositories"
-	"github.com/UjinIaly/db_project
-/internal/usecases"
+	"db_project/internal/models"
+	"db_project/internal/repositories"
+	"db_project/internal/usecases"
 )
 
 type ServiceUseCaseImpl struct {

@@ -1,12 +1,9 @@
 package stores
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
-	"github.com/UjinIaly/db_project
-/internal/repositories"
-	"github.com/UjinIaly/db_project
-/pkg/errors"
+	"db_project/internal/models"
+	"db_project/internal/repositories"
+	"db_project/pkg/errors"
 	"fmt"
 	"time"
 

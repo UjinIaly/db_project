@@ -1,14 +1,10 @@
 package impl
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
-	"github.com/UjinIaly/db_project
-/internal/repositories"
-	"github.com/UjinIaly/db_project
-/internal/usecases"
-	"github.com/UjinIaly/db_project
-/pkg/errors"
+	"db_project/internal/models"
+	"db_project/internal/repositories"
+	"db_project/internal/usecases"
+	"db_project/pkg/errors"
 )
 
 type UserUseCaseImpl struct {

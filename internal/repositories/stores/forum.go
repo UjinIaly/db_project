@@ -1,10 +1,8 @@
 package stores
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
-	"github.com/UjinIaly/db_project
-/internal/repositories"
+	"db_project/internal/models"
+	"db_project/internal/repositories"
 
 	"github.com/jackc/pgx"
 	_ "github.com/lib/pq"

@@ -1,7 +1,6 @@
 package usecases
 
-import "github.com/UjinIaly/db_project
-/internal/models"
+import "db_project/internal/models"
 
 type ForumUseCase interface {
 	CreateForum(forum *models.Forum) (err error)

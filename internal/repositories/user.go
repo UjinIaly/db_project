@@ -1,7 +1,6 @@
 package repositories
 
-import "github.com/UjinIaly/db_project
-/internal/models"
+import "db_project/internal/models"
 
 type UserRepository interface {
 	Create(user *models.User) (err error)

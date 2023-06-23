@@ -1,8 +1,7 @@
 package validator
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/models"
+	"db_project/internal/models"
 	"regexp"
 )
 

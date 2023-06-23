@@ -1,12 +1,9 @@
 package main
 
 import (
-	"github.com/UjinIaly/db_project
-/internal/handlers"
-	"github.com/UjinIaly/db_project
-/internal/repositories/stores"
-	"github.com/UjinIaly/db_project
-/internal/usecases/impl"
+	"db_project/internal/handlers"
+	"db_project/internal/repositories/stores"
+	"db_project/internal/usecases/impl"
 	"fmt"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
